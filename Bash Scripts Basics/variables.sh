@@ -21,6 +21,8 @@ echo "Lenght: $length"
 
 current_date=`date`
 echo "Current Date & Time : $current_date"
+echo "Current Date & time: $(date +%d-%m-%y\ %H-%M-%S)"
+echo "Current Date & time: $(date +%d-%b-%Y\ %H-%M-%S\ %p)"
 
 current_time=$(date +%H:%M:%S)
 echo "Current Time: $current_time"
