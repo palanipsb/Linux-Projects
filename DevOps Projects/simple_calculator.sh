@@ -29,7 +29,7 @@ while true; do
     read -p "Enter the expression and values (q to exit): " input
 
     if [[ "$input" =~ ^[qQ](uit)?$ ]]; then
-        echo -e "Goodboye!"
+        echo -e "Goodbye!"
         break;
     fi
 
