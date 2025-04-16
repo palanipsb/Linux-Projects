@@ -1,9 +1,11 @@
 #!/bin/bash
 # Create a log file that contains only error entries from a log file
 
-# Declare
-log_file="/var/log/syslog"
+# Declare variables
+logfile="/var/log/syslog"
+error_log="/var/error_logs"
+filename="error_log.txt"
 keyword="ERROR"
 
-grep $keyword $log_file > error_log.txt
-echo "All ERROR entries have been captured in error_log.txt"
+grep $keyword $logfile > $error_log/$filename
+echo "All ERROR has been saved in $error_log/$filename"
