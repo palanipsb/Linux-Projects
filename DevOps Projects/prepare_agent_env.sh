@@ -18,6 +18,7 @@ sudo apt-get install -y \
     zip \
     jq \
     openjdk-17-jdk-headless \
+    maven \
     dotnet-sdk-6.0 \
     dotnet-runtime-6.0
 
